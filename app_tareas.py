@@ -56,12 +56,12 @@ def initialize_data():
 
         # Nombres de los colaboradores
         collaborator_names = {
-            "tomas_c": "Tomas Casanova",
-            "nicolas_c": "Nicolas Chavez",
-            "vicente_h": "Vicente Hoya",
-            "goli_t": "Goli Torres",
-            "tomas_v": "Tomas Valenzuela",
-            "fuad_h": "Fuad Hamed"
+            "tomic": "Tomas Casanova",
+            "nico": "Nicolas Chavez",
+            "chicho": "Vicente Hoya",
+            "goli": "Goli Torres",
+            "tomiv": "Tomas Valenzuela",
+            "fuad": "Fuad Hamed"
         }
 
         # Crear usuarios por defecto si users_db está vacío
