@@ -60,9 +60,9 @@ def initialize_data():
         st.session_state.votes = load_data(VOTES_FILE, dict)
 
         collaborator_names = {
-            "tomas_c": "Tomas Casanova", "nicolas_c": "Nicolas Chavez",
-            "vicente_h": "Vicente Hoya", "goli_t": "Goli Torres",
-            "tomas_v": "Tomas Valenzuela", "fuad_h": "Fuad Hamed"
+            "tomasc": "Tomas Casanova", "nico": "Nicolas Chavez",
+            "chicho": "Vicente Hoya", "goli": "Goli Torres",
+            "tomasv": "Tomas Valenzuela", "fuad": "Fuad Hamed"
         }
 
         if not st.session_state.users_db:
@@ -125,7 +125,7 @@ def new_password_setup_page(username):
 
 def login_page():
     st.header("🚀 Inicio de Sesión del Equipo")
-    username = st.text_input("Usuario", key="login_user_main", placeholder="Ej: admin, tomas_c")
+    username = st.text_input("Usuario", key="login_user_main")
     password = st.text_input("Contraseña", type="password", key="login_pass_main")
 
     if st.button("Ingresar", key="login_button_main"):
