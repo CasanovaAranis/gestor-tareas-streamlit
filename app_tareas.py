@@ -145,7 +145,7 @@ def new_password_setup_page(username):
 # --- Funciones de Autenticación ---
 def login_page():
     st.header("🚀 Inicio de Sesión del Equipo")
-    username = st.text_input("Usuario", key="login_user_main", placeholder="Ej: admin, tomas_c")
+    username = st.text_input("Usuario", key="login_user_main")
     password = st.text_input("Contraseña", type="password", key="login_pass_main")
 
     if st.button("Ingresar", key="login_button_main"):
